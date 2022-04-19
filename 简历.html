@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人简历</title>
+  </head>
+  <body style="height: 900px">
+    <div>
+      <h1 style="text-align: center">应聘岗位: web前端开发 意向城市: 北京</h1>
+
+      <span style="left: 85%; top: 50%; position: fixed">
+        <ul style="font-size: 20px">
+          <li><a href="#C1">基本信息</a></li>
+          <li><a href="#C2">个人技能</a></li>
+          <li><a href="#C3">英语单词项目</a></li>
+          <li><a href="#C4">图书商城</a></li>
+          <li><a href="#C5">二手车买卖系统</a></li>
+        </ul>
+      </span>
+      <div>
+        <a name="C1"></a>
+          <h2 style="padding-left: 15%">基本信息</h2>
+          <div>
+            <ul style="font-size: 20px; list-style: none; padding-left: 25%">
+              <li>姓名: 李岳耿</li>
+              <li>年龄: 22</li>
+              <li>手机: 18389870558</li>
+              <li>邮箱: 1605482778@qq.com</li>
+            </ul>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a name="C2">
+          <h2 style="padding-left: 15%">个人技能</h2>
+          <div>
+            <ul style="font-size: 20px; list-style: none; padding-left: 25%">
+              <li>熟悉 CSS HTML</li>
+              <li>熟悉 JavaScript</li>
+              <li>熟悉 cookie,session,token认证机制</li>
+              <li>熟悉 Ajax 网络通信原理和应用</li>
+              <li>熟悉 Vue 框架</li>
+              <li>了解 Webpack Git 的使用</li>
+              <li>了解 HTML5,CSS3</li>
+              <li>了解 ES6</li>
+              <li>了解 HTTP HTTPS TCP/IP协议</li>
+              <li>了解常见的数据结构及算法</li>
+            </ul>
+          </div>
+        </a>
+      </div>
+      <div style="font-size: 20px; padding: 0 15%">
+        <h2><a name="C3">英语单词项目</a></h2>
+        <p>
+          <strong>负责部分</strong>:前端和后端的编写
+          项目描述:本项目包括用户登录,注册,搜索单词,记忆单词,听写单词的模块,使用ElementUI
+          搭建基本页面, 采用 vue-cli 创建项目进行组件化开发,后端使用
+          NodeJS搭建基本服务,操作单词数据库,使用
+          Axios库进行前后端的数据交互,token实现登录状态的保存和鉴权
+        </p>
+        <p>
+          <strong>项目难点/亮点</strong>:
+          1.用户查询搜索单词时,需要频繁操作数据库读取磁盘信息,非常耗时,
+          因此通过缓存来解决此难题, 但不能把全部单词读入内存,于是,根据 LRU
+          设计思想做了一层缓存及时淘汰不经常使用的单词,以解决内存开销。
+          2.将搜索框进行了优化,类似防抖,节流的思想;
+          3.对用户输入的单词前缀进行联想,构建了字典单词的前缀树,来联想用户输入的单词,提高用户搜索单词的效率。
+        </p>
+      </div>
+      <div style="font-size: 20px; padding: 0 15%">
+        <h2><a name="C4">图书商城项目</a></h2>
+        <p>
+          <strong>负责部分</strong>:前端的编写 项目描述:本项目前端使用
+          Composition
+          API+Vuejs+Vant组件库进行开发，前端实现了登录页面，注册页面，商城首页，分类页面，购物车页面，商品详情页面和用户信息页面等。用户信息页实现了用户基本信息的修改。
+        </p>
+        <p>
+          <strong>项目收获</strong
+          >:通过本项目了解和熟悉了Vant组件库的基本使用，同时熟悉了VueJS的使用。
+        </p>
+      </div>
+      <div style="font-size: 20px; padding: 0 15%">
+        <h2><a name="C5">二手车买卖系统</a></h2>
+        <p>负责部分:部分前端页面的编写</p>
+        <p>
+          项目描述:本项目包括用户注册，登录，买卖二手车，高速卖车，订单等模块，使用ElementUI和Naive-ui搭建基本页面，同时管理员端实现审核用户卖车信息，可删除用户和订单信息。
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
